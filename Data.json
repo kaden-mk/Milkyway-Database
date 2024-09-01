@@ -67,7 +67,9 @@
                 "gravity": 8.87,
                 "rotation_speed": -6.52
             },
-            "terrain": []
+            "terrain": {
+                "texture": "http://www.roblox.com/asset/?id=422766804"
+            }
         },
         {
             "name": "Mars",
@@ -99,7 +101,9 @@
                 "gravity": 24.79,
                 "rotation_speed": 45307
             },
-            "terrain": []
+            "terrain": {
+                "texture": "http://www.roblox.com/asset/?id=109516604"
+            }
         },
         {
             "name": "Saturn",
@@ -114,7 +118,9 @@
                 "gravity": 10.44,
                 "rotation_speed": 36840
             },
-            "terrain": []
+            "terrain": {
+                "texture": "http://www.roblox.com/asset/?id=423085455"
+            }
         },
         {
             "name": "Uranus",
@@ -129,7 +135,9 @@
                 "gravity": 8.69,
                 "rotation_speed": -22341
             },
-            "terrain": []
+            "terrain": {
+                "texture": "rbxassetid://121823040604005"
+            }
         },
         {
             "name": "Neptune",
@@ -144,7 +152,9 @@
                 "gravity": 11.15,
                 "rotation_speed": 9716
             },
-            "terrain": []
+            "terrain": {
+                "texture": "http://www.roblox.com/asset/?id=423396976"
+            }
         }
     ],
     "stars": [
