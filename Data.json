@@ -121,7 +121,11 @@
             "attributes": {
                 "gravity": 10.44,
                 "rotation_speed": 36840,
-                "tilt": 26.73
+                "tilt": 26.73,
+                "rings": {
+                    "radius": 60300,
+                    "distance_from_planet": 282000
+                }
             },
             "terrain": {
                 "texture": "rbxassetid://100663668915074"
