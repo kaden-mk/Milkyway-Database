@@ -125,7 +125,8 @@
                 "rings": {
                     "diameter": 282000,
                     "length": 3200,
-                    "distance_from_planet": 282000
+                    "distance_from_planet": 282000,
+                    "texture": "http://www.roblox.com/asset/?id=278998725"
                 }
             },
             "terrain": {
