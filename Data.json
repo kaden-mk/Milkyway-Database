@@ -31,7 +31,8 @@
             ],
             "attributes": {
                 "gravity": 9.807,
-                "rotation_speed": 1038
+                "rotation_speed": 1038,
+                "tilt": 23.44
             },
             "terrain": {
                 "texture": "rbxassetid://453515908"
@@ -65,7 +66,8 @@
             },
             "attributes": {
                 "gravity": 8.87,
-                "rotation_speed": -6.52
+                "rotation_speed": -6.52,
+                "tilt": 177.36
             },
             "terrain": {
                 "texture": "http://www.roblox.com/asset/?id=422766804"
@@ -82,7 +84,8 @@
             },
             "attributes": {
                 "gravity": 3.721,
-                "rotation_speed": 866.9
+                "rotation_speed": 866.9,
+                "tilt": 25.19
             },
             "terrain": {
                 "texture": "rbxassetid://15884266353"
@@ -99,7 +102,8 @@
             },
             "attributes": {
                 "gravity": 24.79,
-                "rotation_speed": 45307
+                "rotation_speed": 45307,
+                "tilt": 3.13
             },
             "terrain": {
                 "texture": "http://www.roblox.com/asset/?id=109516604"
@@ -116,7 +120,8 @@
             },
             "attributes": {
                 "gravity": 10.44,
-                "rotation_speed": 36840
+                "rotation_speed": 36840,
+                "tilt": 26.73
             },
             "terrain": {
                 "texture": "rbxassetid://100663668915074"
@@ -133,7 +138,8 @@
             },
             "attributes": {
                 "gravity": 8.69,
-                "rotation_speed": -22341
+                "rotation_speed": -22341,
+                "tilt": 97.77
             },
             "terrain": {
                 "texture": "rbxassetid://121823040604005"
@@ -150,7 +156,8 @@
             },
             "attributes": {
                 "gravity": 11.15,
-                "rotation_speed": 9716
+                "rotation_speed": 9716,
+                "tilt": 28.32
             },
             "terrain": {
                 "texture": "http://www.roblox.com/asset/?id=423396976"
