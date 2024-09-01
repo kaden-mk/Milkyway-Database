@@ -33,7 +33,9 @@
                 "gravity": 9.807,
                 "rotation_speed": 1038
             },
-            "terrain": []
+            "terrain": {
+                "texture": "rbxassetid://453515908"
+            }
         },
         {
             "name": "Mercury",
