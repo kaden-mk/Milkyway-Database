@@ -1,0 +1,205 @@
+{
+    "moons": [
+        {
+            "name": "Moon",
+            "metadata": {
+                "mass": 7.34767309e22,
+                "radius": 1737.4,
+                "has_surface": true,
+                "diameter": 3474.8
+            },
+            "attributes": {
+                "gravity": 1.62
+            }
+        }
+    ],
+    "planets": [
+        {
+            "name": "Earth",
+            "metadata": {
+                "mass": 5.972e24,
+                "radius": 6371,
+                "has_surface": true,
+                "diameter": 12742,
+                "velocity": 29784.8
+            },
+            "moons": [
+                {
+                    "name": "Moon",
+                    "distance_from_planet": 384400
+                }
+            ],
+            "attributes": {
+                "gravity": 9.807,
+                "rotation_speed": 1038
+            },
+            "terrain": []
+        },
+        {
+            "name": "Mercury",
+            "metadata": {
+                "mass": 3.3011e23,
+                "radius": 2439.7,
+                "has_surface": true,
+                "diameter": 4879.4,
+                "velocity": 47362
+            },
+            "attributes": {
+                "gravity": 3.7,
+                "rotation_speed": 10.892
+            },
+            "terrain": []
+        },
+        {
+            "name": "Venus",
+            "metadata": {
+                "mass": 4.8675e24,
+                "radius": 6051.8,
+                "has_surface": true,
+                "diameter": 12104,
+                "velocity": 35020
+            },
+            "attributes": {
+                "gravity": 8.87,
+                "rotation_speed": -6.52
+            },
+            "terrain": []
+        },
+        {
+            "name": "Mars",
+            "metadata": {
+                "mass": 6.4171e23,
+                "radius": 3389.5,
+                "has_surface": true,
+                "diameter": 6779,
+                "velocity": 24077
+            },
+            "attributes": {
+                "gravity": 3.721,
+                "rotation_speed": 866.9
+            },
+            "terrain": []
+        },
+        {
+            "name": "Jupiter",
+            "metadata": {
+                "mass": 1.8982e27,
+                "radius": 69911,
+                "has_surface": false,
+                "diameter": 139820,
+                "velocity": 13070
+            },
+            "attributes": {
+                "gravity": 24.79,
+                "rotation_speed": 45307
+            },
+            "terrain": []
+        },
+        {
+            "name": "Saturn",
+            "metadata": {
+                "mass": 5.6834e26,
+                "radius": 58232,
+                "has_surface": false,
+                "diameter": 116460,
+                "velocity": 9680
+            },
+            "attributes": {
+                "gravity": 10.44,
+                "rotation_speed": 36840
+            },
+            "terrain": []
+        },
+        {
+            "name": "Uranus",
+            "metadata": {
+                "mass": 8.6810e25,
+                "radius": 25362,
+                "has_surface": false,
+                "diameter": 50724,
+                "velocity": 6800
+            },
+            "attributes": {
+                "gravity": 8.69,
+                "rotation_speed": -22341
+            },
+            "terrain": []
+        },
+        {
+            "name": "Neptune",
+            "metadata": {
+                "mass": 1.02413e26,
+                "radius": 24622,
+                "has_surface": false,
+                "diameter": 49244,
+                "velocity": 5430
+            },
+            "attributes": {
+                "gravity": 11.15,
+                "rotation_speed": 9716
+            },
+            "terrain": []
+        }
+    ],
+    "stars": [
+        {
+            "name": "Sun",
+            "metadata": {
+                "mass": 1.989e30,
+                "radius": 696340,
+                "has_surface": true,
+                "diameter": 1391400,
+                "type": "G-type"
+            },
+            "attributes": {
+                "heat": 15000000
+            }
+        }
+    ],
+    "systems": [
+        {
+            "name": "Solar",
+            "stars": [
+                {
+                    "name": "Sun",
+                    "distance_from_center": 0
+                }
+            ],
+            "planets": [
+                {
+                    "name": "Mercury",
+                    "distance_from_star": 0.39
+                },
+                {
+                    "name": "Venus",
+                    "distance_from_star": 0.72
+                },
+                {
+                    "name": "Earth",
+                    "distance_from_star": 1
+                },
+                {
+                    "name": "Mars",
+                    "distance_from_star": 1.52
+                },
+                {
+                    "name": "Jupiter",
+                    "distance_from_star": 5.2
+                },
+                {
+                    "name": "Saturn",
+                    "distance_from_star": 9.58
+                },
+                {
+                    "name": "Uranus",
+                    "distance_from_star": 19.22
+                },
+                {
+                    "name": "Neptune",
+                    "distance_from_star": 30.05
+                }
+            ],
+            "pos": [0, 0, 0]
+        }
+    ]
+}
