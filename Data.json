@@ -50,7 +50,9 @@
                 "gravity": 3.7,
                 "rotation_speed": 10.892
             },
-            "terrain": []
+            "terrain": {
+                "texture": "http://www.roblox.com/asset/?id=5184963957"
+            }
         },
         {
             "name": "Venus",
@@ -80,7 +82,9 @@
                 "gravity": 3.721,
                 "rotation_speed": 866.9
             },
-            "terrain": []
+            "terrain": {
+                "texture": "rbxassetid://15884266353"
+            }
         },
         {
             "name": "Jupiter",
