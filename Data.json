@@ -123,7 +123,8 @@
                 "rotation_speed": 36840,
                 "tilt": 26.73,
                 "rings": {
-                    "radius": 60300,
+                    "diameter": 282000,
+                    "length": 3200,
                     "distance_from_planet": 282000
                 }
             },
