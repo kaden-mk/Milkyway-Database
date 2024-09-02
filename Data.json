@@ -19,6 +19,7 @@
             "metadata": {
                 "mass": 5.972e24,
                 "radius": 6371,
+                "equatorial_radius": 6378,
                 "has_surface": true,
                 "diameter": 12742,
                 "velocity": 29784.8
