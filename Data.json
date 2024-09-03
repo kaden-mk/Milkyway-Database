@@ -10,6 +10,10 @@
             },
             "attributes": {
                 "gravity": 1.62
+            },
+            "atmosphere": {
+                "layers": [],
+                "thickness": 0
             }
         }
     ],
@@ -19,6 +23,7 @@
             "metadata": {
                 "mass": 5.972e24,
                 "radius": 6371,
+                "equatorial_radius": 6378,
                 "has_surface": true,
                 "diameter": 12742,
                 "velocity": 29784.8
@@ -31,10 +36,15 @@
             ],
             "attributes": {
                 "gravity": 9.807,
-                "rotation_speed": 1038
+                "rotation_speed": 1600,
+                "tilt": 23.44
             },
             "terrain": {
-                "texture": "rbxassetid://453515908"
+                "texture": "rbxassetid://122651294314530"
+            },
+            "atmosphere": {
+                "layers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+                "thickness": 100
             }
         },
         {
@@ -51,7 +61,11 @@
                 "rotation_speed": 10.892
             },
             "terrain": {
-                "texture": "http://www.roblox.com/asset/?id=5184963957"
+                "texture": "rbxassetid://120920449925456"
+            },
+            "atmosphere": {
+                "layers": ["Exosphere"],
+                "thickness": 0.1
             }
         },
         {
@@ -65,10 +79,15 @@
             },
             "attributes": {
                 "gravity": 8.87,
-                "rotation_speed": -6.52
+                "rotation_speed": -6.52,
+                "tilt": 177.36
             },
             "terrain": {
-                "texture": "http://www.roblox.com/asset/?id=422766804"
+                "texture": "rbxassetid://99981989096282"
+            },
+            "atmosphere": {
+                "layers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+                "thickness": 250
             }
         },
         {
@@ -82,10 +101,15 @@
             },
             "attributes": {
                 "gravity": 3.721,
-                "rotation_speed": 866.9
+                "rotation_speed": 866.9,
+                "tilt": 25.19
             },
             "terrain": {
                 "texture": "rbxassetid://15884266353"
+            },
+            "atmosphere": {
+                "layers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+                "thickness": 11
             }
         },
         {
@@ -99,10 +123,15 @@
             },
             "attributes": {
                 "gravity": 24.79,
-                "rotation_speed": 45307
+                "rotation_speed": 45307,
+                "tilt": 3.13
             },
             "terrain": {
                 "texture": "http://www.roblox.com/asset/?id=109516604"
+            },
+            "atmosphere": {
+                "layers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+                "thickness": 1000
             }
         },
         {
@@ -116,10 +145,21 @@
             },
             "attributes": {
                 "gravity": 10.44,
-                "rotation_speed": 36840
+                "rotation_speed": 36840,
+                "tilt": 26.73,
+                "rings": {
+                    "diameter": 282000,
+                    "length": 3200,
+                    "distance_from_planet": 282000,
+                    "texture": "http://www.roblox.com/asset/?id=278998725"
+                }
             },
             "terrain": {
                 "texture": "rbxassetid://100663668915074"
+            },
+            "atmosphere": {
+                "layers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+                "thickness": 700
             }
         },
         {
@@ -133,10 +173,15 @@
             },
             "attributes": {
                 "gravity": 8.69,
-                "rotation_speed": -22341
+                "rotation_speed": -22341,
+                "tilt": 97.77
             },
             "terrain": {
                 "texture": "rbxassetid://121823040604005"
+            },
+            "atmosphere": {
+                "layers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+                "thickness": 500
             }
         },
         {
@@ -150,10 +195,15 @@
             },
             "attributes": {
                 "gravity": 11.15,
-                "rotation_speed": 9716
+                "rotation_speed": 9716,
+                "tilt": 28.32
             },
             "terrain": {
                 "texture": "http://www.roblox.com/asset/?id=423396976"
+            },
+            "atmosphere": {
+                "layers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+                "thickness": 600
             }
         }
     ],
@@ -168,7 +218,8 @@
                 "type": "G-type"
             },
             "attributes": {
-                "heat": 15000000
+                "heat": 15000000,
+                "luminosity": 1
             }
         }
     ],
