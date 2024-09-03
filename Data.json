@@ -237,6 +237,10 @@
             ],
             "planets": [
                 {
+                    "name": "Mercury",
+                    "distance_from_star": 0.39
+                },
+                {
                     "name": "Earth",
                     "distance_from_star": 1
                 },
