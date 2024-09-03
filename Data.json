@@ -36,7 +36,7 @@
             ],
             "attributes": {
                 "gravity": 9.807,
-                "rotation_speed": 1600,
+                "rotation_speed": 1670,
                 "tilt": 23.44
             },
             "terrain": {
