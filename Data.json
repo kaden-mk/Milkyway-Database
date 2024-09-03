@@ -219,7 +219,7 @@
             },
             "attributes": {
                 "heat": 15000000,
-                "luminosity": 1,
+                "luminosity": 1
             }
         }
     ],
