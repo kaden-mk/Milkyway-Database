@@ -221,7 +221,7 @@
             "attributes": {
                 "heat": 15000000,
                 "luminosity": 1,
-                "vertex_color": [ 255, 255, 1 ]
+                "vertex_color": [ 6, 3, 3 ]
             },
             "texture": "rbxassetid://126485350114392"
         }
