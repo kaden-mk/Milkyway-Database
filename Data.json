@@ -228,6 +228,27 @@
     ],
     "systems": [
         {
+            "name": "Test",
+            "stars": [
+                {
+                    "name": "Sun",
+                    "distance_from_center": 0
+                }
+            ],
+            "planets": [
+                {
+                    "name": "Earth",
+                    "distance_from_star": 1
+                },
+                {
+                    "name": "Mars",
+                    "distance_from_star": 1.52
+                }
+            ],
+            "pos": [0, 0, 0]
+        },
+
+        {
             "name": "Solar",
             "stars": [
                 {
